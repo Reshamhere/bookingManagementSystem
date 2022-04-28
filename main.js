@@ -6,7 +6,7 @@ function start() {
         i = (i % 4) + 1; // 4 is the Number of image in slider
         document.getElementById('i' + i).checked = true;
     }
-    setInterval(Move, 6000); //change img in 5 sec
+    setInterval(Move, 6000); //change img in 6 sec
 }
 
 
